@@ -302,3 +302,43 @@ margin-bottom:15px;
 =========================== */
 
 .wh
+/* HERO SECTION */
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("A.jpg.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.hero h1{
+    font-size:58px;
+    font-family:'Cinzel',serif;
+    letter-spacing:2px;
+}
+
+.hero p{
+    font-size:20px;
+    margin:15px 0;
+}
+
+.hero-btn{
+    display:inline-block;
+    padding:14px 34px;
+    background:#c89b3c;
+    color:#fff;
+    text-decoration:none;
+    border-radius:40px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:#a87c22;
+    transform:scale(1.05);
+}

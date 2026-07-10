@@ -342,3 +342,50 @@ margin-bottom:15px;
     background:#a87c22;
     transform:scale(1.05);
 }
+/* PREMIUM NAVBAR */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.35);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    z-index:1000;
+    transition:.4s;
+}
+
+.logo{
+    font-size:28px;
+    font-family:'Cinzel',serif;
+    font-weight:700;
+    color:#fff;
+}
+
+.logo span{
+    color:#d4af37;
+    margin:0 8px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#d4af37;
+}

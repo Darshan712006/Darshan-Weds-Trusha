@@ -488,10 +488,12 @@ margin-bottom:15px;
     color:#d4af37;
     margin:0;
 }
-
 .time-box span{
-    color:#fff;
+    color:#333;
+    font-weight:600;
     margin-top:10px;
     letter-spacing:2px;
     font-size:14px;
+    text-transform:uppercase;
 }
+

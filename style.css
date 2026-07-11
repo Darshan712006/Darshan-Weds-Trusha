@@ -546,3 +546,37 @@ margin-bottom:15px;
     font-size:18px;
     margin:8px 0;
 }
+
+/* ===== Gallery ===== */
+
+.gallery{
+    padding:90px 20px;
+    background:#fff;
+    text-align:center;
+}
+
+.gallery h2{
+    font-size:42px;
+    color:#c89b1d;
+    font-family:'Cinzel',serif;
+    margin-bottom:40px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:18px;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.05);
+}

@@ -580,3 +580,55 @@ margin-bottom:15px;
 .gallery-grid img:hover{
     transform:scale(1.05);
 }
+/* ===== Venue ===== */
+
+.venue{
+    padding:90px 20px;
+    background:linear-gradient(135deg,#fffaf2,#f7f1e6);
+    text-align:center;
+}
+
+.venue h2{
+    font-size:42px;
+    font-family:'Cinzel',serif;
+    color:#c89b1d;
+    margin-bottom:35px;
+}
+
+.venue-card{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+
+.venue-card h3{
+    font-size:30px;
+    color:#333;
+    margin-bottom:15px;
+}
+
+.venue-card p{
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.map-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 35px;
+    background:#d4af37;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.map-btn:hover{
+    background:#b89022;
+    transform:scale(1.05);
+}

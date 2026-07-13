@@ -70,13 +70,14 @@ color:#d4af37;
 
 .hero{
 min-height:100vh;
-background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45));
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:120px 20px 60px;
-position:relative;
+background:
+linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+url("A.jpg.png");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .hero-content{

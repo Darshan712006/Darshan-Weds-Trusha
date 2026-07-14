@@ -63,6 +63,23 @@ transition:.3s;
 .navbar ul li a:hover{
 color:#d4af37;
 }
+@media (max-width:768px){
+
+.navbar{
+    padding:15px;
+}
+
+.nav-links{
+    gap:12px;
+    font-size:13px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:22px;
+}
+
+}
 
 /* ===========================
    Hero

@@ -93,10 +93,12 @@ margin-bottom:15px;
 }
 
 .hero h1{
-font-family:'Cinzel',serif;
-font-size:58px;
-color:white;
-line-height:1.3;
+    font-family:'Cinzel',serif;
+    font-size:58px;
+    color:#fff;
+    line-height:1.3;
+    margin:20px 0;
+    display:block;
 }
 
 .heart{
@@ -107,9 +109,9 @@ margin:15px 0;
 }
 
 .date{
-margin:20px 0;
-color:#f5d76e;
-font-size:22px;
+    color:#f5d76e;
+    font-size:22px;
+    margin:20px 0;
 }
 
 .hero-photo{

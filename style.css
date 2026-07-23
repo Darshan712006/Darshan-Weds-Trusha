@@ -36,17 +36,15 @@ backdrop-filter:blur(15px);
 z-index:999;
 }
 
-.logo{
-font-family:'Cinzel',serif;
-font-size:28px;
-font-weight:700;
-color:#d4af37;
-}
-
 .logo span{
 color:#c62828;
 }
-
+.logo{
+    font-family:'Cinzel',serif;
+    font-size:22px;
+    color:#d4af37;
+    white-space:nowrap;
+}
 .navbar ul{
 display:flex;
 list-style:none;
@@ -331,6 +329,29 @@ margin-bottom:15px;
 
 .invite-text{
     font-size:18px;
+}
+
+}
+@media (max-width:768px){
+
+.navbar{
+    padding:12px 15px;
+}
+
+.logo{
+    font-size:18px;
+}
+
+.navbar ul{
+    gap:12px;
+}
+
+.navbar ul li a{
+    font-size:13px;
+}
+
+.hero h1{
+    font-size:44px;
 }
 
 }

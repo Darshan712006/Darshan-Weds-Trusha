@@ -311,9 +311,16 @@ footer h2{
     }
 
     nav{
-        flex-wrap:wrap;
-        justify-content:center;
-    }
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    width:100%;
+    text-align:center;
+}
+
+nav a{
+    font-size:15px;
+}
 
     .hero h1{
         font-size:42px;

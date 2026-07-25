@@ -64,12 +64,6 @@ nav a{
 nav a:hover{
     color:#d4af37;
 }
-.menu-toggle{
-    display:none;
-    font-size:30px;
-    color:#fff;
-    cursor:pointer;
-}
 
 @media (max-width:768px){
 

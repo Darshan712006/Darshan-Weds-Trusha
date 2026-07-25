@@ -64,7 +64,36 @@ nav a{
 nav a:hover{
     color:#d4af37;
 }
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    cursor:pointer;
+}
 
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:15px;
+}
+
+.logo{
+    margin-bottom:15px;
+    text-align:center;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+}
+
+nav a{
+    font-size:14px;
+}
+
+}
 /* ================= HERO ================= */
 
 .hero{

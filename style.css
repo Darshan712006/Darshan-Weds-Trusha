@@ -306,12 +306,11 @@ footer h2{
         gap:12px;
     }
 
-    nav{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:10px;
-    width:100%;
-    text-align:center;
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
 }
 
 nav a{

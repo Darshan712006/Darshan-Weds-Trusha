@@ -78,13 +78,15 @@ nav a:hover{
 }
 
 nav{
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:18px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    width:100%;
+    text-align:center;
 }
 
 nav a{
-    font-size:14px;
+    font-size:15px;
 }
 
 }

@@ -65,31 +65,6 @@ nav a:hover{
     color:#d4af37;
 }
 
-@media (max-width:768px){
-
-.navbar{
-    flex-direction:column;
-    padding:15px;
-}
-
-.logo{
-    margin-bottom:15px;
-    text-align:center;
-}
-
-nav{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:10px;
-    width:100%;
-    text-align:center;
-}
-nav a{
-    font-size:13px;
-    padding:4px 2px;
-}
-
-}
 /* ================= HERO ================= */
 
 .hero{

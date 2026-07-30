@@ -337,3 +337,28 @@ nav a{
         padding:20px;
     }
 }
+.menu-toggle{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+        font-size:30px;
+        color:#fff;
+        cursor:pointer;
+        text-align:center;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        text-align:center;
+        gap:15px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}

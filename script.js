@@ -51,7 +51,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     });
 });
 
-const galleryImages = document.querySelectorAll(".gallery img");
+const galleryImages = document.querySelectorAll(".gallery-grid img");
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeLightbox = document.querySelector(".close-lightbox");

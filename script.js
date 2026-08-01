@@ -72,3 +72,27 @@ lightbox.addEventListener("click", (e) => {
         lightbox.style.display = "none";
     }
 });
+
+// Hero Background Slideshow
+
+const hero = document.querySelector(".hero");
+
+const backgrounds = [
+    "A.jpg.png",
+    "B.jpg.jpg",
+    "C.jpg.jpg",
+    "D.jpg.jpg",
+    "E.jpg.jpg"
+];
+
+let bgIndex = 0;
+
+function changeBackground(){
+    hero.style.backgroundImage =
+        `linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('${backgrounds[bgIndex]}')`;
+
+    bgIndex = (bgIndex + 1) % backgrounds.length;
+}
+
+changeBackground();
+setInterval(changeBackground, 5000);

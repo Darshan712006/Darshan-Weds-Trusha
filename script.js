@@ -92,7 +92,7 @@ function createHeart(){
     }, 8000);
 }
 
-setInterval(createHeart, 700);
+setInterval(createHeart, 1200);
 
 const hiddenElements = document.querySelectorAll(".hidden");
 

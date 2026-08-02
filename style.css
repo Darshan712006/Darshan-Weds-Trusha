@@ -74,8 +74,8 @@ nav a:hover{
     url("A.jpg.png");
     background-size:cover;
     background-position:center;
-    background-repeat: no-repeat;transition: 
-    background-image 1s ease-in-out;
+    background-repeat:no-repeat;
+
     display:flex;
     justify-content:center;
     align-items:center;

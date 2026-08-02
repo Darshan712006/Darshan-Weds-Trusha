@@ -107,3 +107,19 @@ const observer = new IntersectionObserver((entries)=>{
 hiddenElements.forEach(el=>{
     observer.observe(el);
 });
+
+window.addEventListener("load", () => {
+
+    setTimeout(() => {
+
+        const loader = document.getElementById("loader");
+
+        loader.style.opacity = "0";
+
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 800);
+
+    }, 1800);
+
+});

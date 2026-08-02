@@ -453,3 +453,19 @@ nav a{
     font-size:18px;
     letter-spacing:3px;
 }
+
+.ring{
+    width:70px;
+    height:70px;
+    margin:20px auto;
+    border:5px solid rgba(255,255,255,.2);
+    border-top:5px solid #d4af37;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform:rotate(360deg);
+    }
+}

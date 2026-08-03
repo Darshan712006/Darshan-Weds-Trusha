@@ -437,6 +437,11 @@ nav a{
     transition:opacity .8s ease;
 }
 
+#loader.hide{
+    opacity:0;
+    visibility:hidden;
+}
+
 .loader-content{
     text-align:center;
 }

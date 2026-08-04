@@ -109,8 +109,9 @@ hiddenElements.forEach(el=>{
 });
 
 window.addEventListener("load", () => {
-    setTimeout(() => {
-        document.getElementById("loader").classList.add("hide");
-    }, 1800);
+    const loader = document.getElementById("loader");
+    if(loader){
+        loader.style.display = "none";
+    }
 });
 

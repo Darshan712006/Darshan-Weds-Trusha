@@ -669,3 +669,31 @@ nav a{
 .timeline-content p{
     color:#666;
 }
+
+<section id="story" class="story hidden">
+
+    <h2>Our Story ❤️</h2>
+
+    <div class="story-container">
+
+        <div class="story-card">
+            <div class="story-icon">💕</div>
+            <h3>First Meet</h3>
+            <p>Every beautiful journey begins with a single meeting.</p>
+        </div>
+
+        <div class="story-card">
+            <div class="story-icon">💍</div>
+            <h3>Engagement</h3>
+            <p>Two hearts, one promise, a lifetime together.</p>
+        </div>
+
+        <div class="story-card">
+            <div class="story-icon">👰🤵</div>
+            <h3>Wedding</h3>
+            <p>Beginning our forever with the blessings of our loved ones.</p>
+        </div>
+
+    </div>
+
+</section>

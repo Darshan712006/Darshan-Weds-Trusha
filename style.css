@@ -72,16 +72,18 @@ nav a:hover{
 /* ================= HERO ================= */
 
 .hero{
-min-height:100vh;
-background:
-linear-gradient(
-rgba(0,0,0,.45),
-rgba(0,0,0,.60)
-),
-url("A.jpg.png");
-background-size:cover;
-background-position:center;
-background-attachment:fixed;
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.45),
+    rgba(0,0,0,.60)
+    ),
+    url("A.jpg.png");
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center 25%;
 
     display:flex;
     justify-content:center;

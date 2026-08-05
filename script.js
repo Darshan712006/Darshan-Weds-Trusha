@@ -115,3 +115,8 @@ window.addEventListener("load", () => {
     }
 });
 
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        document.getElementById("preloader").classList.add("hide");
+    }, 2000);
+});

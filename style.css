@@ -24,26 +24,30 @@ img{
 }
 
 /* ================= NAVBAR ================= */
-
 .navbar{
-    position:relative;
+    position:fixed;
     top:0;
     left:0;
     width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 8%;
-    background:rgba(0,0,0,.35);
-    backdrop-filter:blur(12px);
+    padding:16px 8%;
+    background:rgba(20,20,20,.28);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(255,255,255,.12);
     z-index:1000;
+    transition:.35s;
 }
 
 .logo{
     font-family:'Cinzel',serif;
-    font-size:28px;
-    color:#fff;
+    font-size:34px;
     font-weight:700;
+    color:#fff;
+    letter-spacing:1px;
+    text-shadow:0 2px 12px rgba(0,0,0,.4);
 }
 
 .logo span{
@@ -376,7 +380,7 @@ nav a{
     display:flex;
     animation: slideDown .3s ease;
 }
-}
+
 @keyframes slideDown{
     from{
         opacity:0;
@@ -507,4 +511,16 @@ nav a{
     100%{
         transform:rotate(360deg);
     }
+}
+
+#menu-toggle{
+    font-size:38px;
+    color:#fff;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#menu-toggle:hover{
+    color:#d4af37;
+    transform:rotate(90deg);
 }

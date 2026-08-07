@@ -794,3 +794,41 @@ nav a{
         margin-right:5px;
     }
 }
+
+    
+/* Premium Hero Glow */
+
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:280px;
+    height:280px;
+    right:-120px;
+    bottom:-100px;
+    background:rgba(212,175,55,.18);
+    border-radius:50%;
+    filter:blur(70px);
+    pointer-events:none;
+    animation:goldGlow 5s ease-in-out infinite alternate;
+}
+
+@keyframes goldGlow{
+    from{
+        transform:scale(.9);
+        opacity:.35;
+    }
+    to{
+        transform:scale(1.2);
+        opacity:.7;
+    }
+}
+
+.hero > *{
+    position:relative;
+    z-index:1;
+}

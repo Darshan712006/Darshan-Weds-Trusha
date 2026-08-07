@@ -832,3 +832,10 @@ nav a{
     position:relative;
     z-index:1;
 }
+
+  .story-date{
+    color:#d4af37;
+    font-weight:600;
+    font-size:16px;
+    margin-top:12px;
+}  

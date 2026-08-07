@@ -219,21 +219,70 @@ nav a:hover{
     font-weight:600;
 }
 
-/* ================= EVENTS ================= */
+/* =========================
+   WEDDING EVENTS
+========================= */
 
-.events{
-    padding:90px 20px;
-    background:#faf7f2;
-    text-align:center;
+/* =========================
+   WEDDING EVENTS
+========================= */
+
+.events-section{
+    padding:70px 20px;
+    background:#faf7ef;
 }
 
-.event-card{
-    max-width:600px;
-    margin:20px auto;
+.events-section h2{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.events-container{
+    max-width:850px;
+    margin:auto;
+}
+
+.event-item{
+    position:relative;
     background:#fff;
-    padding:25px;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.10);
+    margin:0 auto 25px;
+    padding:28px 25px 28px 85px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
+    overflow:hidden;
+}
+
+.event-item::before{
+    content:"";
+    position:absolute;
+    left:25px;
+    top:28px;
+    width:42px;
+    height:42px;
+    background:#e5b900;
+    border-radius:50%;
+}
+
+.event-item h3{
+    margin:0 0 10px;
+    font-size:24px;
+    color:#222;
+}
+
+.event-item p{
+    margin:6px 0;
+    font-size:17px;
+    color:#666;
+}
+
+.event-item p strong{
+    color:#222;
+}
+
+.event-item:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+    transition:.3s;
 }
 
 /* ================= GALLERY ================= */

@@ -998,3 +998,119 @@ nav a{
     font-size:16px;
     margin-top:12px;
 }  
+
+/* =================================
+   FINAL MOBILE FINISHING
+================================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        padding: 12px 18px !important;
+        min-height: 70px;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        font-size: 28px !important;
+        line-height: 1.1;
+    }
+
+    .nav-links {
+        display: none !important;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        font-size: 26px;
+        margin-left: auto;
+    }
+
+    /* Hero / sections */
+    section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Events */
+    .story-container {
+        width: 100%;
+        padding: 20px 15px;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    .story-container::before {
+        display: none;
+    }
+
+    .story-item {
+        width: 100%;
+        min-height: auto;
+        margin: 0 0 25px 0;
+        padding: 22px;
+        box-sizing: border-box;
+    }
+
+    .story-item:nth-child(odd),
+    .story-item:nth-child(even) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .story-item::after {
+        display: none;
+    }
+
+    .story-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 27px;
+        margin-bottom: 12px;
+    }
+
+    .story-content h3 {
+        font-size: 21px;
+        margin: 0 0 8px;
+    }
+
+    .story-content p {
+        font-size: 15px;
+        margin: 5px 0;
+    }
+
+    .story-content strong {
+        font-size: 15px;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .gallery-grid img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Section headings */
+    .events-section h2,
+    .gallery-section h2,
+    .venue-section h2 {
+        font-size: 34px !important;
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    /* Prevent horizontal scrolling */
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}

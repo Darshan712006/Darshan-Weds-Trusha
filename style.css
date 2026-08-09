@@ -1114,3 +1114,69 @@ nav a{
         overflow-x: hidden;
     }
 }
+
+/* =========================================
+   FINAL MOBILE HERO FINISHING
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 14px 18px;
+        min-height: 82px;
+    }
+
+    .logo {
+        font-size: 28px;
+        letter-spacing: 0.5px;
+    }
+
+    /* HERO */
+    .hero {
+        min-height: 100svh;
+        padding: 115px 20px 55px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .hero-content {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .hero h1 {
+        font-size: clamp(42px, 12vw, 64px);
+        line-height: 1.05;
+        margin-bottom: 18px;
+    }
+
+    .welcome {
+        font-size: 17px;
+        letter-spacing: 3px;
+        margin-bottom: 18px;
+    }
+
+    .date {
+        font-size: 20px;
+        padding: 13px 24px;
+        margin: 20px 0;
+    }
+
+    .hero-photo {
+        width: 190px;
+        height: 190px;
+        margin: 22px auto;
+        border-width: 5px;
+    }
+
+    .hero-btn {
+        padding: 15px 38px;
+        font-size: 17px;
+    }
+
+    /* GENERAL MOBILE SECTION SPACING */
+    section {
+        scroll-margin-top: 80px;
+    }
+}

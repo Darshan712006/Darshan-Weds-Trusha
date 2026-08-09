@@ -476,20 +476,7 @@ footer h2{
 }
   .navbar{
     flex-direction:column;
-    align-items:center;
-    gap:15px;
-    padding:15px;
-}  
-    nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-nav a{
-    font-size:15px;
-}
-
+  
     .hero h1{
         font-size:42px;
     }
@@ -1199,4 +1186,64 @@ nav a{
         color: #d4af37 !important;
     }
 
+}
+
+    /* ===============================
+   FINAL MOBILE MENU
+================================ */
+
+.menu-toggle{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:14px 18px;
+        min-height:82px;
+    }
+
+    .logo{
+        font-size:28px;
+        line-height:1.1;
+    }
+
+    .menu-toggle{
+        display:block;
+        font-size:32px;
+        color:#fff;
+        cursor:pointer;
+        margin-left:auto;
+    }
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:82px;
+        left:0;
+        width:100%;
+        padding:20px;
+        background:rgba(20,20,20,.95);
+        backdrop-filter:blur(15px);
+        -webkit-backdrop-filter:blur(15px);
+        flex-direction:column;
+        align-items:center;
+        gap:18px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .nav-links a{
+        color:#fff;
+        font-size:16px;
+    }
+
+    .nav-links a:hover{
+        color:#d4af37;
+    }
 }

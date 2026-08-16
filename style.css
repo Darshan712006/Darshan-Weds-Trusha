@@ -666,3 +666,183 @@ footer p:last-child {
         font-size: 30px;
     }
 }
+
+/* =========================================
+FINAL MOBILE + STORY FIX
+========================================= */
+
+/* OUR STORY - clean layout */
+.story {
+position: relative;
+}
+
+.story .story-container {
+max-width: 900px;
+margin: 0 auto;
+}
+
+.story .story-card {
+background: #181818;
+border: 1px solid rgba(230,184,0,0.20);
+border-left: 3px solid var(--gold);
+border-radius: 18px;
+padding: 25px;
+margin-bottom: 20px;
+position: relative;
+overflow: hidden;
+}
+
+/* Remove unwanted oval / decorative backgrounds */
+.story .story-card::before,
+.story .story-card::after {
+display: none !important;
+content: none !important;
+}
+
+.story .story-icon {
+width: 55px;
+height: 55px;
+min-width: 55px;
+border-radius: 50%;
+background: rgba(230,184,0,0.10);
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+margin-bottom: 15px;
+}
+
+.story .story-card h3 {
+color: white;
+font-size: 22px;
+margin-bottom: 8px;
+}
+
+.story .story-card p {
+color: #eeeeee;
+font-size: 16px;
+line-height: 1.7;
+margin-bottom: 5px;
+}
+
+.story .story-date {
+color: var(--gold);
+font-weight: 500;
+}
+
+/* =========================================
+REDUCE UNNECESSARY SECTION GAP
+========================================= */
+
+.countdown {
+padding-bottom: 45px !important;
+}
+
+.events {
+padding-top: 45px !important;
+padding-bottom: 55px !important;
+}
+
+.gallery {
+padding-top: 55px !important;
+}
+
+/* =========================================
+PREVENT HEADING FROM HIDING UNDER NAVBAR
+========================================= */
+
+section {
+scroll-margin-top: 90px;
+}
+
+.story h2,
+.gallery h2,
+.events h2,
+.venue h2 {
+position: relative;
+z-index: 2;
+}
+
+/* =========================================
+MOBILE FINAL FIX
+========================================= */
+
+@media (max-width: 768px) {
+
+section:not(.hero) {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.countdown {
+    padding-top: 45px !important;
+    padding-bottom: 25px !important;
+}
+
+.events {
+    padding-top: 25px !important;
+    padding-bottom: 45px !important;
+}
+
+.gallery {
+    padding-top: 45px !important;
+}
+
+/* Story cards */
+.story .story-card {
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 16px;
+}
+
+.story .story-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.story .story-card h3 {
+    font-size: 20px;
+}
+
+.story .story-card p {
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+/* Better Story heading position */
+.story {
+    padding-top: 55px !important;
+}
+
+.story h2 {
+    margin-bottom: 30px;
+}
+
+}
+
+/* =========================================
+SMALL PHONE
+========================================= */
+
+@media (max-width: 400px) {
+
+.story {
+    padding-top: 50px !important;
+}
+
+.story .story-card {
+    padding: 18px;
+}
+
+.story .story-card h3 {
+    font-size: 19px;
+}
+
+.story .story-card p {
+    font-size: 14px;
+}
+
+}

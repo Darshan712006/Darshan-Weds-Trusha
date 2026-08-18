@@ -951,3 +951,134 @@ SMALL PHONE
         font-size: 28px !important;
     }
 }
+
+/* =========================================
+   EVENTS - PREMIUM WEDDING STYLE
+========================================= */
+
+.events {
+    position: relative;
+}
+
+.events .story-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.events .story-item {
+    position: relative;
+    background: linear-gradient(
+        145deg,
+        #1d1d1d,
+        #151515
+    ) !important;
+
+    border: 1px solid rgba(230,184,0,0.22) !important;
+    border-left: 3px solid var(--gold) !important;
+
+    border-radius: 18px !important;
+    padding: 22px 25px !important;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.25);
+
+    transition: 0.3s ease;
+}
+
+.events .story-item:hover {
+    transform: translateX(5px);
+    border-color: rgba(230,184,0,0.5) !important;
+}
+
+.events .story-icon {
+    background: rgba(230,184,0,0.10) !important;
+    border: 1px solid rgba(230,184,0,0.25);
+    color: var(--gold);
+}
+
+.events .story-content h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold-light) !important;
+    font-size: 20px;
+}
+
+.events .story-content p {
+    color: #bdbdbd !important;
+}
+
+.events .story-content strong {
+    color: white !important;
+}
+
+
+/* =========================================
+   EVENTS MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .events {
+        padding-top: 50px !important;
+        padding-bottom: 55px !important;
+    }
+
+    .events .story-container {
+        width: 100%;
+    }
+
+    .events .story-item {
+        padding: 18px !important;
+        margin-bottom: 15px !important;
+        gap: 14px !important;
+        border-radius: 16px !important;
+    }
+
+    .events .story-icon {
+        width: 46px;
+        height: 46px;
+        min-width: 46px !important;
+        font-size: 20px !important;
+    }
+
+    .events .story-content h3 {
+        font-size: 17px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .events .story-content p {
+        font-size: 13px !important;
+        margin-bottom: 3px !important;
+    }
+
+    .events .story-content strong {
+        font-size: 13px !important;
+    }
+}
+
+
+/* =========================================
+   SMALL PHONE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .events .story-item {
+        padding: 16px !important;
+    }
+
+    .events .story-icon {
+        width: 42px;
+        height: 42px;
+        min-width: 42px !important;
+        font-size: 18px !important;
+    }
+
+    .events .story-content h3 {
+        font-size: 16px !important;
+    }
+
+    .events .story-content p,
+    .events .story-content strong {
+        font-size: 12px !important;
+    }
+}

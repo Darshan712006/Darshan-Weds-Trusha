@@ -1394,3 +1394,102 @@ SMALL PHONE
         font-size: 13px !important;
     }
 }
+
+/* =========================================
+   PREMIUM VENUE DESIGN
+========================================= */
+
+.venue {
+    padding-top: 70px !important;
+    padding-bottom: 80px !important;
+    text-align: center;
+}
+
+.venue h2 {
+    margin-bottom: 35px;
+}
+
+.venue-card {
+    position: relative;
+    max-width: 700px;
+    padding: 45px 25px;
+    margin: 0 auto;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(35,35,35,0.98),
+            rgba(20,20,20,0.98)
+        );
+    border: 1px solid rgba(230,184,0,0.35);
+    border-left: 4px solid var(--gold);
+    border-radius: 22px;
+    box-shadow:
+        0 20px 50px rgba(0,0,0,0.35),
+        0 0 30px rgba(230,184,0,0.05);
+    overflow: hidden;
+}
+
+.venue-card::before {
+    content: "❤";
+    position: absolute;
+    top: -35px;
+    right: -20px;
+    font-size: 130px;
+    color: rgba(230,184,0,0.04);
+}
+
+.venue-card h3 {
+    position: relative;
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.venue-card p {
+    position: relative;
+    color: #d0d0d0;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 28px;
+}
+
+.map-btn {
+    position: relative;
+    padding: 15px 32px;
+    border-radius: 50px;
+    background: var(--gold);
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.map-btn:hover {
+    transform: translateY(-4px);
+    background: var(--gold-light);
+    box-shadow: 0 10px 30px rgba(230,184,0,0.25);
+}
+
+@media (max-width: 768px) {
+
+    .venue {
+        padding-top: 55px !important;
+        padding-bottom: 65px !important;
+    }
+
+    .venue-card {
+        padding: 35px 20px;
+        border-radius: 18px;
+    }
+
+    .venue-card h3 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .venue-card p {
+        font-size: 15px;
+    }
+
+}

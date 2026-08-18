@@ -168,4 +168,4 @@ function createHeart() {
 
 // Create hearts continuously
 
-setInterval(createHeart, 1200);
+setInterval(createHeart, 2200);

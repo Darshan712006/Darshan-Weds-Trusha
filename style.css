@@ -1240,3 +1240,157 @@ SMALL PHONE
 
     font-size: 32px !important;
 }
+
+/* =========================================
+   OUR STORY - PREMIUM
+========================================= */
+
+.story {
+    position: relative;
+    padding-top: 60px !important;
+    padding-bottom: 65px !important;
+}
+
+.story h2 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 35px !important;
+}
+
+.story .story-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.story .story-card {
+    position: relative;
+    background: linear-gradient(
+        145deg,
+        #1d1d1d,
+        #151515
+    ) !important;
+
+    border: 1px solid rgba(230,184,0,0.25) !important;
+    border-left: 3px solid var(--gold) !important;
+
+    border-radius: 18px !important;
+    padding: 23px !important;
+    margin-bottom: 18px !important;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+
+    transition: 0.3s ease;
+}
+
+.story .story-card:hover {
+    transform: translateX(5px);
+    border-color: rgba(230,184,0,0.5) !important;
+}
+
+.story .story-icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(230,184,0,0.10) !important;
+    border: 1px solid rgba(230,184,0,0.25);
+
+    border-radius: 50%;
+    font-size: 22px;
+
+    margin-bottom: 13px !important;
+}
+
+.story .story-card h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold-light) !important;
+    font-size: 21px;
+    margin-bottom: 7px !important;
+}
+
+.story .story-card p {
+    color: #d0d0d0 !important;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 5px !important;
+}
+
+.story .story-card .story-date {
+    color: var(--gold) !important;
+    font-weight: 500;
+}
+
+
+/* =========================================
+   OUR STORY MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .story {
+        padding-top: 45px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .story h2 {
+        font-size: 30px !important;
+        margin-bottom: 28px !important;
+    }
+
+    .story .story-card {
+        padding: 19px !important;
+        margin-bottom: 14px !important;
+        border-radius: 16px !important;
+    }
+
+    .story .story-icon {
+        width: 46px;
+        height: 46px;
+        min-width: 46px;
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    .story .story-card h3 {
+        font-size: 19px !important;
+    }
+
+    .story .story-card p {
+        font-size: 14px !important;
+        line-height: 1.55;
+    }
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media (max-width: 400px) {
+
+    .story {
+        padding-top: 40px !important;
+    }
+
+    .story h2 {
+        font-size: 27px !important;
+    }
+
+    .story .story-card {
+        padding: 17px !important;
+    }
+
+    .story .story-card h3 {
+        font-size: 18px !important;
+    }
+
+    .story .story-card p {
+        font-size: 13px !important;
+    }
+}

@@ -1493,3 +1493,38 @@ SMALL PHONE
     }
 
 }
+
+/* =========================================
+   FINAL - ELEGANT FLOATING HEARTS
+========================================= */
+
+#hearts-container {
+    z-index: 5;
+}
+
+.heart {
+    color: var(--gold);
+    font-size: 14px !important;
+    opacity: 0.55;
+    animation: fall 7s linear forwards;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-50px) scale(0.7);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0.55;
+    }
+
+    85% {
+        opacity: 0.35;
+    }
+
+    100% {
+        transform: translateY(110vh) scale(1);
+        opacity: 0;
+    }
+}

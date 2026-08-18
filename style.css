@@ -1082,3 +1082,20 @@ SMALL PHONE
         font-size: 12px !important;
     }
 }
+
+/* =========================================
+   EVENTS - SUBTLE FLOATING HEARTS
+========================================= */
+
+.heart {
+    font-size: 14px !important;
+    opacity: 0.55;
+    animation-duration: 8s !important;
+}
+
+@media (max-width: 768px) {
+    .heart {
+        font-size: 12px !important;
+        opacity: 0.45;
+    }
+}

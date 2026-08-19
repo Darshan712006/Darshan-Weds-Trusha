@@ -1528,3 +1528,151 @@ SMALL PHONE
         opacity: 0;
     }
 }
+
+/* ================================
+   FAMILY SECTION
+================================ */
+
+.family-section {
+    padding: 80px 6% 70px;
+    text-align: center;
+    background: #0d0d0d;
+    border-top: 1px solid rgba(255, 193, 7, 0.12);
+}
+
+.family-section h3 {
+    font-family: "Cinzel", serif;
+    font-size: 32px;
+    color: #f5b900;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+.family-grid {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+.family-card {
+    position: relative;
+    padding: 32px 30px;
+    text-align: left;
+    background: linear-gradient(
+        145deg,
+        #1b1b1b,
+        #111111
+    );
+    border: 1px solid rgba(245, 185, 0, 0.35);
+    border-left: 5px solid #f5b900;
+    border-radius: 22px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+}
+
+.family-card::after {
+    content: "♥";
+    position: absolute;
+    right: 22px;
+    top: 18px;
+    font-size: 55px;
+    color: rgba(245, 185, 0, 0.05);
+}
+
+.family-card h4 {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 22px;
+    font-family: "Cinzel", serif;
+    font-size: 24px;
+    color: #f5b900;
+    letter-spacing: 0.5px;
+}
+
+.family-card p {
+    position: relative;
+    z-index: 1;
+    margin: 11px 0;
+    color: #d8d8d8;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.family-divider {
+    width: 90px;
+    height: 2px;
+    margin: 50px auto 30px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #f5b900,
+        transparent
+    );
+}
+
+.family-message {
+    max-width: 800px;
+    margin: auto;
+    color: #bdbdbd;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.family-last-line {
+    margin-top: 20px;
+    color: #f5b900;
+    font-family: "Cinzel", serif;
+    font-size: 18px;
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+    .family-section {
+        padding: 60px 18px 55px;
+    }
+
+    .family-section h3 {
+        font-size: 25px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+
+    .family-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .family-card {
+        padding: 25px 22px;
+        border-left-width: 5px;
+        border-radius: 20px;
+    }
+
+    .family-card h4 {
+        font-size: 21px;
+        margin-bottom: 18px;
+    }
+
+    .family-card p {
+        font-size: 14px;
+        margin: 9px 0;
+        line-height: 1.55;
+    }
+
+    .family-message {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .family-last-line {
+        font-size: 16px;
+    }
+}

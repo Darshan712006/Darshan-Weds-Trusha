@@ -1676,3 +1676,346 @@ SMALL PHONE
         font-size: 16px;
     }
 }
+
+/* =========================================
+   FINAL ROMANTIC THEME
+   IVORY + ROSE PINK + BURGUNDY
+========================================= */
+
+:root {
+    --gold: #b85c6e;
+    --gold-light: #d98a99;
+    --dark: #fffaf7;
+    --dark-soft: #f8efec;
+    --white: #3b252b;
+    --gray: #75646a;
+    --border: rgba(184,92,110,0.20);
+}
+
+/* MAIN BACKGROUND */
+body {
+    background: #fffaf7 !important;
+    color: #3b252b !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: rgba(255,250,247,0.95) !important;
+    border-bottom: 1px solid rgba(184,92,110,0.20) !important;
+}
+
+.logo {
+    color: #3b252b !important;
+}
+
+.logo span {
+    color: #b85c6e !important;
+}
+
+.nav-links a {
+    color: #4a3036 !important;
+}
+
+.nav-links a:hover {
+    color: #b85c6e !important;
+}
+
+.menu-toggle {
+    color: #4a3036 !important;
+}
+
+/* HERO */
+.hero {
+    background:
+        linear-gradient(
+            rgba(70,25,35,0.32),
+            rgba(70,25,35,0.48)
+        ),
+        url("A.jpg.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.welcome {
+    color: #ffe8e8 !important;
+}
+
+.hero h1 span {
+    color: #ffd0d8 !important;
+}
+
+.hero-photo {
+    border-color: #e5a0ad !important;
+    box-shadow: 0 0 35px rgba(229,160,173,0.45) !important;
+}
+
+/* BUTTONS */
+.hero-btn,
+.btn,
+.map-btn {
+    background: #b85c6e !important;
+    color: white !important;
+}
+
+.hero-btn:hover,
+.btn:hover,
+.map-btn:hover {
+    background: #d17b8b !important;
+    box-shadow: 0 12px 30px rgba(184,92,110,0.25) !important;
+}
+
+/* ALL SECTIONS */
+section:not(.hero) {
+    background: #fffaf7 !important;
+}
+
+section h2 {
+    color: #9f4558 !important;
+}
+
+/* COUNTDOWN */
+.time-box {
+    background: linear-gradient(
+        145deg,
+        #fff,
+        #f8efec
+    ) !important;
+
+    border: 1px solid rgba(184,92,110,0.25) !important;
+
+    box-shadow: 0 12px 35px rgba(100,50,60,0.10) !important;
+}
+
+.time-box h3 {
+    color: #b85c6e !important;
+}
+
+.time-box span {
+    color: #75646a !important;
+}
+
+/* EVENTS */
+.events .story-item {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f9efec
+    ) !important;
+
+    border: 1px solid rgba(184,92,110,0.20) !important;
+    border-left: 3px solid #b85c6e !important;
+
+    box-shadow: 0 10px 30px rgba(100,50,60,0.08) !important;
+}
+
+.events .story-item:hover {
+    background: #fff !important;
+    border-color: rgba(184,92,110,0.45) !important;
+}
+
+.events .story-icon {
+    background: rgba(184,92,110,0.09) !important;
+    border-color: rgba(184,92,110,0.22) !important;
+    color: #b85c6e !important;
+}
+
+.events .story-content h3 {
+    color: #a4475a !important;
+}
+
+.events .story-content p {
+    color: #75646a !important;
+}
+
+.events .story-content strong {
+    color: #4a3036 !important;
+}
+
+/* OUR STORY */
+.story .story-card {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f9efec
+    ) !important;
+
+    border: 1px solid rgba(184,92,110,0.20) !important;
+    border-left: 3px solid #b85c6e !important;
+
+    box-shadow: 0 10px 30px rgba(100,50,60,0.08) !important;
+}
+
+.story .story-icon {
+    background: rgba(184,92,110,0.09) !important;
+    border-color: rgba(184,92,110,0.20) !important;
+}
+
+.story .story-card h3 {
+    color: #a4475a !important;
+}
+
+.story .story-card p {
+    color: #75646a !important;
+}
+
+.story .story-card .story-date {
+    color: #b85c6e !important;
+}
+
+/* GALLERY */
+.gallery {
+    background: #fffaf7 !important;
+}
+
+.gallery-item {
+    background: #f8efec !important;
+    border-color: rgba(184,92,110,0.25) !important;
+    box-shadow: 0 10px 30px rgba(100,50,60,0.10) !important;
+}
+
+.gallery-item::after {
+    background: linear-gradient(
+        to top,
+        rgba(80,30,40,0.15),
+        transparent 45%
+    ) !important;
+}
+
+/* LIGHTBOX */
+#lightbox {
+    background: rgba(55,25,32,0.92) !important;
+}
+
+#lightbox-img {
+    border-color: rgba(255,190,200,0.8) !important;
+}
+
+.close-lightbox {
+    background: rgba(255,250,247,0.15) !important;
+    border-color: rgba(255,190,200,0.4) !important;
+    color: white !important;
+}
+
+/* VENUE */
+.venue-card {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f8efec
+    ) !important;
+
+    border-color: rgba(184,92,110,0.25) !important;
+    border-left-color: #b85c6e !important;
+
+    box-shadow: 0 20px 50px rgba(100,50,60,0.10) !important;
+}
+
+.venue-card::before {
+    color: rgba(184,92,110,0.05) !important;
+}
+
+.venue-card h3 {
+    color: #a4475a !important;
+}
+
+.venue-card p {
+    color: #75646a !important;
+}
+
+/* FAMILY SECTION */
+.family-section {
+    background: #f8efec !important;
+    border-top-color: rgba(184,92,110,0.15) !important;
+}
+
+.family-section h3 {
+    color: #9f4558 !important;
+}
+
+.family-card {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f9efec
+    ) !important;
+
+    border-color: rgba(184,92,110,0.25) !important;
+    border-left-color: #b85c6e !important;
+
+    box-shadow: 0 10px 35px rgba(100,50,60,0.10) !important;
+}
+
+.family-card::after {
+    color: rgba(184,92,110,0.06) !important;
+}
+
+.family-card h4 {
+    color: #9f4558 !important;
+}
+
+.family-card p {
+    color: #75646a !important;
+}
+
+.family-divider {
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #b85c6e,
+        transparent
+    ) !important;
+}
+
+.family-message {
+    color: #75646a !important;
+}
+
+.family-last-line {
+    color: #b85c6e !important;
+}
+
+/* FOOTER */
+footer {
+    background: #4a3036 !important;
+    border-top-color: rgba(184,92,110,0.25) !important;
+}
+
+footer h2 {
+    color: #fff5f2 !important;
+}
+
+footer p {
+    color: #e3cfd2 !important;
+}
+
+footer p:last-child {
+    color: #f2aab7 !important;
+}
+
+/* FLOATING HEARTS */
+.heart {
+    color: #d47788 !important;
+}
+
+/* MOBILE MENU */
+@media (max-width: 768px) {
+
+    .nav-links,
+    .nav-links.active,
+    .nav-links a {
+        background: #fffaf7 !important;
+    }
+
+    .nav-links {
+        border-top-color: rgba(184,92,110,0.20) !important;
+    }
+
+    .nav-links a {
+        color: #4a3036 !important;
+        border-bottom-color: rgba(184,92,110,0.12) !important;
+    }
+
+    .nav-links a:hover {
+        color: #b85c6e !important;
+    }
+}

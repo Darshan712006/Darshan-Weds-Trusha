@@ -2019,3 +2019,139 @@ footer p:last-child {
         color: #b85c6e !important;
     }
 }
+
+/* ===== DARSHAN ❤️ TRUSHA HERO TEXT FIX ===== */
+
+.hero {
+    min-height: 100svh;
+    padding: 125px 18px 55px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.hero .welcome {
+    color: #fff4f5;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    text-shadow: 0 2px 8px #000;
+}
+
+.hero h1 {
+    color: #ffffff !important;
+    font-size: clamp(46px, 8vw, 76px);
+    line-height: 1.12;
+    letter-spacing: 2px;
+    margin: 0 auto 24px;
+    text-shadow: 0 4px 18px rgba(0,0,0,0.9);
+    overflow-wrap: anywhere;
+}
+
+.hero h1 span {
+    color: #ff9eae !important;
+    display: inline-block;
+    text-shadow: 0 3px 15px rgba(0,0,0,0.7);
+}
+
+.hero .date {
+    color: #ffffff;
+    font-size: clamp(17px, 4vw, 22px);
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin: 0 auto 24px;
+    text-shadow: 0 2px 10px #000;
+}
+
+.hero-btn {
+    background: #d77f96;
+    color: #ffffff;
+    padding: 16px 32px;
+    margin: 8px auto 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.hero-photo {
+    width: clamp(165px, 48vw, 230px);
+    height: clamp(165px, 48vw, 230px);
+    border: 5px solid #e9a0b4;
+    box-shadow: 0 0 28px rgba(233,160,180,0.3);
+    margin: 24px auto;
+}
+
+.hero .invite-text {
+    color: #ffffff;
+    font-size: clamp(15px, 3.8vw, 18px);
+    line-height: 1.9;
+    max-width: 620px;
+    margin: 22px auto;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: auto;
+        padding: 125px 18px 45px;
+    }
+
+    .hero h1 {
+        font-size: clamp(43px, 11vw, 58px);
+        line-height: 1.15;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .hero .welcome {
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .hero .date {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+
+    .hero-btn {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .hero-photo {
+        margin: 22px auto;
+    }
+
+    .hero .invite-text {
+        font-size: 15px;
+        line-height: 1.85;
+        overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .hero h1 {
+        font-size: 41px;
+    }
+
+    .hero .welcome {
+        letter-spacing: 2px;
+    }
+}
+

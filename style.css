@@ -1733,7 +1733,7 @@ body {
         ),
         url("A.jpg.png") !important;
     background-size: cover !important;
-    background-position: center !important;
+    background-position: center 30% !important;
 }
 
 .welcome {

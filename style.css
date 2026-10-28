@@ -1572,13 +1572,20 @@ SMALL PHONE
     overflow: hidden;
 }
 
-.family-card::after {
+.groom-family::after {
     content: "🤵🏻";
     position: absolute;
     right: 22px;
     top: 18px;
     font-size: 55px;
-    color: rgba(245, 185, 0, 0.05);
+}
+
+.bride-family::after {
+    content: "👰🏻‍♀️";
+    position: absolute;
+    right: 22px;
+    top: 18px;
+    font-size: 55px;
 }
 
 .family-card h4 {
